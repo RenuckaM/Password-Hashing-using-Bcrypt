@@ -33,7 +33,7 @@ This can be used to securely store passwords and check if an entered password is
 
  ![image](https://github.com/user-attachments/assets/47c31845-844a-4233-b0d8-0d24deaaa756)
 
-##### To Run the project
+## To Run the project
 
 To run the project using the `npm run start` command, you need to update the `package.json` file by adding a `"start"` script. Here’s how to do it:
 
@@ -45,7 +45,7 @@ Open your `package.json` file and add the following `"start"` script under the `
 {
   "name": "your-project-name",
   "version": "1.0.0",
-  "type": "module",  // Only if you're using ES Modules
+  "type": "module",  
   "scripts": {
     "start": "node index.js"
   },
