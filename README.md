@@ -1,17 +1,15 @@
-## Project Name: Password Hashing 
-
-## Description:
-This project provides two simple functions:
+## Description
+This provides two simple functions:
 1. **hashPassword(password)**: Hashes a given password using bcrypt.
 2. **verifyPassword(password, hashedPassword)**: Verifies if the provided password matches the hashed password.
 
 This can be used to securely store passwords and check if an entered password is correct by comparing it with a stored hashed password.
 
-## Prerequisites:
+## Prerequisites
 - Node.js (v14.x or higher)
 - npm (v6.x or higher)
 
-## Installation:
+## Installation
 
 1. **Initialize the project**
    Run `npm init --y` to create a basic `package.json` file.
@@ -24,7 +22,7 @@ This can be used to securely store passwords and check if an entered password is
 3. **Create the `index.js` file**
    Implement the two functions: one for hashing and one for password verification.
 
-## Usage:
+## Usage
 1. Import the `hashPassword` and `verifyPassword` functions from the `index.js` file.
 2. Call `hashPassword` to hash a password.
 3. Call `verifyPassword` to check if a plain password matches the hashed version.
